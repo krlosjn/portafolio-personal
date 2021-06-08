@@ -4,6 +4,7 @@ body{
 .content{
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 .navigate{
     display: flex;
@@ -63,6 +64,18 @@ body{
     text-align: center;
     padding: 50px 0;
     font-family: "Prompt", sans-serif;
+    position: relative;
+    
+}
+
+.background:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.sombras-links:hover{
+    color:rgb(6, 6, 56);
 }
 
 #background_total{
@@ -78,6 +91,7 @@ body{
     padding: 15px 20px;
     display: inline-flex;
     justify-content: space-between;
+    
 }
 .background h1{
     color:white;
@@ -434,9 +448,7 @@ body{
         font-size: 22px;
         color: white;
     }
-    .sombras-links:hover{
-        color:orangered;
-    }
+   
     .img-profile{
         border-radius: 50%;
         width: 100px;
