@@ -6,12 +6,12 @@ body {
 h1{
 	color:rgb(77, 77, 6);
 	font-size: 28px;
-	text-align: center;
+	text-align:center;
 	border: 5px solid white;
 	background: white;
 	border-radius: 10%;
 	border-bottom-style: ridge;
-	margin-left: 13%;
+	margin-left: 2%;
 
 }
 
