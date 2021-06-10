@@ -60,7 +60,7 @@ body{
 }
 .background{
     height: 90vh;
-    background-image: url("../img/anotherImage.png");
+    background-image: url("../img/backGroundCuatro.jpg");
     background-position: 2px;
     background-size: cover;
     text-align: center;
@@ -133,8 +133,12 @@ body{
     margin: 8px;
 }
 .clear {
+    color:white;
+}
+#redText {
     color:rgb(48, 3, 3);
 }
+
 .about-me{
     font-family: "Comfortaa", cursive;
 }
