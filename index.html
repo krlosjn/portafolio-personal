@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Carlos Junco</title>
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Prompt" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
     <link rel="icon" type="image/png" href="img/logo_transparent.png" />  
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>    
     <script src="js/functions.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="undefined" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.esm.min.js" integrity="undefined" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
 </head>
 <body id="background_total">
     <header>
-        <!--otra barra -->
+        <!--beginning navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="img/logo_transparent.png" width="50" height="50">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_transparent.png" width="50" height="50">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">Acerca de mi</a>
+                    <a class="nav-link active" aria-current="page" href="#about">Acerca de mí</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#projects">Proyectos</a>
@@ -41,17 +39,22 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contacto</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="CV.html" target="_blank">CV</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CV
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" target="_blank" href="CV.html">CV html</a></li>
+                      <li><a class="dropdown-item" href="https://drive.google.com/file/d/1g-CrUPXjmtjDzOi_TmKXT3R49UsJyaVO/view?usp=sharing" target="_blank">CV PDF</a></li>
+                    </ul>
                   </li>
                 </ul>
               </div>
             </div>
-        </nav>
-
-
-
+          </nav>
+          <!--end navbar-->
     </header>
+
 
 <!--primera sección de presentación-->
 
@@ -278,10 +281,10 @@
                 <strong>(+57) 3004534347</strong>
             </div>
             <div class="networks-fixed">
-                <a href="https://github.com/krlosjn/" target="_blank" class="icon-github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/carlos-alfonso-junco-c%C3%A1rdenas-b00113145/" target="_blank" class="icon-linkedin"> <i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/krlosjp/" target="_blank" class="icon-instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://wa.me/573004534347" target="_blank" class="icon-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/krlosjn/" target="_blank" class="icon-github"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-alfonso-junco-c%C3%A1rdenas-b00113145/" target="_blank" class="icon-linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/krlosjp/" target="_blank" class="icon-instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/573004534347" target="_blank" class="icon-whatsapp"><i class="bi bi-whatsapp"></i></a>
             </div>
         </div>
     </div>
@@ -301,9 +304,9 @@
            <a href="#contact">Contacto</a>
        </li>
        <div class="networks">
-           <a href="https://github.com/krlosjn/" target="_blank" class="icon-github"><i class="fab fa-github fa-2x"></i></a>
-           <a href="https://www.linkedin.com/in/carlos-alfonso-junco-c%C3%A1rdenas-b00113145/" target="_blank" class="icon-linkedin"> <i class="fab fa-linkedin fa-2x"></i></a>
-           <a href="https://www.instagram.com/krlosjp/" target="_blank" class="icon-instagram"><i class="fab fa-instagram fa-2x"></i></a>
+           <a href="https://github.com/krlosjn/" target="_blank" class="icon-github"><i class="bi bi-github"></i></a>
+           <a href="https://www.linkedin.com/in/carlos-alfonso-junco-c%C3%A1rdenas-b00113145/" target="_blank" class="icon-linkedin"><i class="bi bi-linkedin"></i></a>
+           <a href="https://www.instagram.com/krlosjp/" target="_blank" class="icon-instagram"><i class="bi bi-instagram"></i></a>
        </div>
    </div>
    </div>
