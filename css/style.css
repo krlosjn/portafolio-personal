@@ -140,12 +140,17 @@ body{
 }
 
 .about-me{
-    font-family: "Comfortaa", cursive;
+    font-family: "Prompt", sans-serif;
 }
 .about{
     text-align: center;
     padding: 20px 0 60px 0;
     max-width: 650px;
+    font-family: "Prompt", sans-serif;
+}
+
+.texto{
+    font-family: "Prompt", sans-serif;
 }
 .title{
     font-size: 30px;
