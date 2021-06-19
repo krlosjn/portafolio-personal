@@ -1,9 +1,9 @@
 .imagen{
-
-    float: left;
+    /*float: left;*/
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+	justify-content: center;
 }
 
 
