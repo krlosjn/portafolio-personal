@@ -60,13 +60,16 @@ body{
 }
 .background{
     height: 90vh;
+    margin:auto;
+    max-height: 500px;
     background-image: url("../img/skills.gif");
     background-position: 2px;
     background-size: cover;
     text-align: center;
     padding: 50px 0;
     font-family: "Prompt", sans-serif;
-    position: relative;   
+    position: relative; 
+    justify-content: center;  
 }
 
 
@@ -99,13 +102,15 @@ body{
 */
 
 .background-info{
-    margin-top: 10px;
+   
+    margin:auto;
     background-color:rgba(44, 52, 58, 0.6);
     border: 2px solid;
     border-radius: 8px;
     padding: 15px 20px;
     display: inline-flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    
 }
 
 .background-transparente{
@@ -152,10 +157,29 @@ body{
 .texto{
     font-family: "Prompt", sans-serif;
 }
+
+.skills-texto{
+    font-family: "Prompt", sans-serif;
+    text-align: left;
+    
+}
+
+.filas{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .title{
     font-size: 30px;
     font-family: "Prompt", sans-serif;
     text-transform: uppercase;
+}
+
+.textProjects{
+    margin-top:35px;
+
 }
 .about p{
     font-size: 15px;
@@ -281,6 +305,7 @@ body{
 }
 .contact{
     height: 500px;
+    max-height: 300px;
 }
 .social-net{
     max-width: 800px;
@@ -372,6 +397,13 @@ body{
     color: white;
 }
 
+
+
+.inicio{
+
+  
+    float:right;
+}
 /*pendiente de evaluar*/
 .sombra:hover{
     color:rgb(5, 103, 128);
@@ -511,12 +543,13 @@ body{
         margin: 0 auto;
     }
     .background{
-        height: 40vh;
+        height: 89vh;
     }
     .background-info{
         max-width: 300px;
         display: block;
         text-align: center;
+        margin:auto;
     }
     .navigate-left{
         font-size: 16px;

@@ -23,11 +23,14 @@
 <body id="background_total">
     <header>
         <!--beginning navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo_transparent.png" width="50" height="50">
-                </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+            <div class="container-fluid inicio">
+                <div style="background-color: white; width: auto">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/cafeTaza.png" width="50" height="50">
+                    </a>
+                </div>
+                
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -48,7 +51,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" target="_blank" href="curriculum.html">CV html</a></li>
-                      <li><a class="dropdown-item" href="https://drive.google.com/file/d/1g-CrUPXjmtjDzOi_TmKXT3R49UsJyaVO/view?usp=sharing" target="_blank">CV PDF</a></li>
+                      <li><a class="dropdown-item" href="resource/CV CARLOS JUNCO UPDATE.pdf" download="CV CARLOS JUNCO UPDATE.pdf" target="_blank">CV PDF</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -71,7 +74,15 @@
                         <div class="info-dev">
                             <h1>Desarrollador de software</h1>
                             <h4 style="color:white"><span>Software developer</span></h4>
-                            <h5 id="HoraActual" style="color:white"></h5>
+                          <h5 id="HoraActual" style="color:white"></h5> 
+                            <!--
+                           <form action="">
+                                <script src="js/functions.js">    
+                                    document.getElementById("horaColombia").value=window.onload=setTimeout("showTime()", 1000);
+                                </script>t
+                                <label for="horaColombia" style="color:white;">Hora Colombia</label>
+                                <input type="text" style="color:black;" value="" name="horaColombia" style="color:white;">
+                            </form>  -->
                         </div>
                     </div>
                     
@@ -89,7 +100,7 @@
         <div class="container">
             <div class="about content">
                 <h1 class="title">Acerca de mi</h1>
-                    <p>Me gusta mucho aprender, viajar, leer,
+                    <p class="texto">Me gusta mucho aprender, viajar, leer,
                         conocer lugares nuevos y conocer personas, pienso que la colaboración es indispensable para lograr el mundo que queremos.
                     </p>
                 </h1>
@@ -154,7 +165,7 @@
             <div class="skill">
                 <div class="skill-container"> 
                     <h2><span class="texto">Habilidades</span></h2>        
-                    <p class="texto">Tengo habilidades en desarrollo  tanto front end como back end, manejo de base datos, conocimientos en Java, patrón de diseño MVT,
+                    <p class="skills-texto">Tengo habilidades en desarrollo  tanto front end como back end, manejo de base datos, conocimientos en Java, patrón de diseño MVT,
                         metodología ágil, conocimientos Python, django, PL/SQL, entre otras. 
                     </p>
                 </div>
@@ -202,7 +213,7 @@
 
 <section class="projects content" id="projects">
     <div class="container">
-        <h1 class="title texto" align="center">PROYECTOS</h1>
+        <h1 class="title texto textProjects" align="center">PROYECTOS</h1>
         <div class="social-net">
             <p class="social-contact texto"  align="center">Próximamente se cargaran algunos proyectos personales</p>
         </div>
@@ -217,6 +228,17 @@
                     <p>HTML/CSS/BOOTSTRAP4</p>
                     <button>
                         <a target="_blank" href="https://krlosjn.github.io/nomipro-bootstrap4-prueba-/">Visitar</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="projects-item">
+                <img src="img/página sencilla.png" name="proyectoeanx">
+                <div class="info" name="info">
+                    <h3>Página web simple</h3>
+                    <p>HTML/CSS</p>
+                    <button>
+                        <a target="_blank" href="https://krlosjn.github.io/pagina-sencilla-/">Visitar</a>
                     </button>
                 </div>
             </div>
